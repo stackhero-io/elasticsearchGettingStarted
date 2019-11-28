@@ -1,0 +1,13 @@
+{
+  "name": "elasticsearch-getting-started",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node gettingStarted.js"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.4.0",
+    "dotenv": "^8.2.0"
+  }
+}
