@@ -90,5 +90,9 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
   console.error('');
   console.error('🐞 An error occurred!');
   console.error(error);
+  // Show HTTP body
+  if (error.meta && error.meta.body) {
+    console.error(JSON.stringify(error.meta.body));
+  }
   process.exit(1);
 });
