@@ -1,6 +1,17 @@
 # Elasticsearch getting started
 
-You will find in this repository some Elasticsearch and Node.js code examples.
+## How to send data from Node.js to Elasticsearch
+
+You can find here some examples of Node.js code to send data to an Elasticsearch server.
+
+These examples are designed to run with a Stackhero for Elasticsearch.
+You'll more informations about Stackhero here:
+- [Elasticsearch cloud](https://www.stackhero.io/en/services/Elasticsearch/benefits)
+- [Elasticsearch pricing](https://www.stackhero.io/en/services/Elasticsearch/pricing)
+- [Elasticsearch documentations](https://www.stackhero.io/en/services/Elasticsearch/documentations)
+
+
+## How to use
 
 - First, clone this repository: `git clone https://github.com/stackhero-io/elasticsearchGettingStarted.git && cd elasticsearchGettingStarted`
 - Then, install nodes packages: `npm install`
